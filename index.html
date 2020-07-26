@@ -3,52 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator</title>
+    <title>Pin Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="rectangle1">
-        <label class="rectangle5" type="number">
-        <div class="Ellipse1">
-            
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="pin-generator half-width">
+                    <input class="form-control" type="text">
+                    <button class="generate-btn">Generate Pin</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-section half-width">
+                    <input class="form-control" type="text">
+                    <div class="numbers">
+                        <div class="calc-body">
+                            <div class="calc-button-row">
+                              <div class="button">7</div>
+                              <div class="button">8</div>
+                              <div class="button">9</div>
+                            </div>
+                            <div class="calc-button-row">
+                              <div class="button">4</div>
+                              <div class="button">5</div>
+                              <div class="button">6</div>
+                            </div>
+                            <div class="calc-button-row">
+                              <div class="button">1</div>
+                              <div class="button">2</div>
+                              <div class="button">3</div>
+                            </div>
+                            <div class="calc-button-row">
+                                <div class="button"><</div>
+                                <div class="button">0</div>
+                                <div class="button">C</div>
+                            </div>
+                            <div>
+                                <button type="submit" class="submit-btn">Submit</button>
+                                <p class="action-left">3 try left</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="Ellipse2">
-            <p class="pin">Generate Pin</p>
+        <div class="notify-section">
+            <p class="notify">❌ Pin Didn't Match, Please try again</p>
+            <p class="notify">✅ Pin Matched... Secret door is opening for you</p>
         </div>
     </div>
-    <div class="rectangle2">
-        <label class="rectangle6" type="number">
-            <div class="row">
-            <button class="rectangle-1"><p class="digit">7</p></button>
-            <button class="rectangle-2"><p class="digit">8</p></button>
-            <button class="rectangle-3"><p class="digit">9</p></button>
-        </div>
-        <div class="row">
-            <button class="rectangle-4"><p class="digit">4</p></button>
-            <button class="rectangle-5"><p class="digit">5</p></button>
-            <button class="rectangle-6"><p class="digit">6</p></button>
-        </div>
-        <div class="row">
-            <button class="rectangle-7"><p class="digit">1</p></button>
-            <button class="rectangle-8"><p class="digit">2</p></button>
-            <button class="rectangle-9"><p class="digit">3</p></button>
-        </div>
-        <div class="row">
-            <button class="rectangle-10"><p class="digit"><-</p></button>
-            <button class="rectangle-11"><p class="digit">0</p></button>
-            <button class="rectangle-12"><p class="digit">c</p></button>
-        </div>
-        <div class="row">
-            <button class="rectangle-13"><p class="submit">Submit</p></button>
-            <h6 class="try">3 try left</h6>
-        </div>
-    </div>
-    <label class="footer">
-        <p class="matched-pin"><img src="image/500px-Circle_-_black_simple.svg.png" alt="">Pin Matched...Secret door is opening for you</p>
-    </label>
-    <label class="footer2">
-        <p class="matched-pin"><img src="image/1200px-Red_circle.svg.png" alt="">Pin did't Match.........try again</p>
-    </label>
 </body>
 </html>

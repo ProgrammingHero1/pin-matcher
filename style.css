@@ -1,347 +1,105 @@
-body{
-    background: #18191d;
-    height: 100%;
-    width: 100%;
-}
-.rectangle1{
-position: absolute;
-width: 421px;
-height: 658px;
-left: 186px;
-top: 117px;
-
-background: #222436;
-border-radius: 18.496px;
-}
-
-.rectangle2{
-    position: absolute;
-    width: 421px;
-    height: 669px;
-    left: 775px;
-    top: 117px;
-    
-    background: #222436;
-    border-radius: 18.496px;
-}
-
-.rectangle5{
-    position: absolute;
-    width: 322px;
-    height: 64px;
-    left: 50px;
-    top: 90px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 4.624px;
-}
-
-.Ellipse1{
-    position: absolute;
-width: 169px;
-height: 169px;
-left: 80px;
-top: 225px;
-
-background: #495BC3;
-border-radius: 100px;
-}
-.Ellipse2{
-position: absolute;
-width: 186px;
-height: 186px;
-left: 70px;
-top: 217px;
-
-background: rgba(73, 91, 195, 0.6);
-border-radius: 100px;
-}
-.pin{
-position: absolute;
-width: 98px;
-height: 56px;
-left: 46px;
-top: 52px;
-font-family: 'Roboto';
-
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-display: flex;
-align-items: flex-end;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.rectangle6{
-    position: absolute;
-width: 322px;
-height: 64px;
-left: 50px;
-top: 85px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 4.624px;
-}
-.rectangle-1{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 3px;
-top: 90px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-.rectangle-2{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 110px;
-top: 90px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-.rectangle-3{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 220px;
-top: 90px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-
-.rectangle-4{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 3px;
-top: 170px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-.rectangle-5{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 110px;
-top: 170px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-.rectangle-6{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 220px;
-top: 170px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-
-.rectangle-7{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 3px;
-top: 250px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-.rectangle-8{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 110px;
-top: 250px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-.rectangle-9{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 220px;
-top: 250px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-
-.rectangle-10{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 3px;
-top: 330px;
-
-background: #3D4153;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
-}
-
-.rectangle-11{
-    position: absolute;
-    width: 90px;
-    height: 64px;
-    left: 110px;
-    top: 330px;
-    
-    background: #3D4153;
-    border: 2px solid #858299;
+*{
     box-sizing: border-box;
-    border-radius: 10px;
 }
-.rectangle-12{
-    position: absolute;
-width: 90px;
-height: 64px;
-left: 220px;
-top: 330px;
-
-background: #FF3C5F;
-border: 2px solid #858299;
-box-sizing: border-box;
-border-radius: 10px;
+body {
+    background: #10101B;
+    height: 100vh;
 }
-.rectangle-13{
-    display: flex;
-flex-direction: row;
-padding: 15px 120px;
-
-position: absolute;
-width: 300px;
-height: 60px;
-left: 10px;
-top: 450px;
-
-background: #495BC3;
-border-radius: 10px;
-}
-.digit{
-    position: absolute;
-    font-style: normal;
-    font-size: large;
-    font-family: Roboto;
-    color: #D6D6D6; 
-    padding-left: 30px;
-    bottom: 5px;;
-}
-.try{
-    position: absolute;
-width: 59px;
-height: 19px;
-left: 140px;
-top: 500px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-display: flex;
-align-items: flex-end;
-text-align: center;
-
-color: #FF3C5F;
+.container {
+    margin-top: 30px;
 }
 
-.footer{
-    position: absolute;
-width: 534px;
-height: 49px;
-left: 412px;
-top: 810px;
-
-background: #222436;
-border-radius: 47px;
-}
-.matched-pin{
-position: absolute;
-left: 70px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-/* identical to box height, or 200% */
-text-align: center;
-padding-bottom: 30px;
-color: #FFFFFF;
-}
-.submit{
-    position: static;
-width: 76px;
-height: 28px;
-left: 120px;
-top: 15px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-display: flex;
-align-items: flex-end;
-text-align: center;
-
-color: #FFFFFF;
-
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-align-self: center;
-margin: 10px 0px;
-}
-img{
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
-}
-.footer2{
-    position: absolute;
-    width: 534px;
-    height: 49px;
-    left: 412px;
-    top: 880px;
-    
+.half-width {
+    height: 570px;
     background: #222436;
-    border-radius: 47px;
+    padding: 30px;
+    text-align: center;
+}
+.generate-btn{
+    margin-top: 140px;
+    width: 180px;
+    padding: 50px;
+    border-radius: 50%;
+    border: 8px solid #39458C;
+    background-color: #495BC3;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.generate-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+input[type='text']{
+    background-color: #3D4153;
+    padding: 10px 0px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #858299;
+    height: 50px;
+    padding: 10px;
+}
+input[type='text']:focus {
+    background-color: #3D4153;
+    color: #fff;
+    font-size: 20px;
+}
+.numbers {
+    margin: 30px 0;
+}
+
+.calc-typed {
+margin-top: 20px;
+font-size: 45px;
+text-align: right;
+color: #fff;
+}
+
+.calc-button-row {
+width: 100%;
+}
+
+.button {
+width: 20%;
+background: #425062;
+color: #fff;
+padding: 20px 0;
+margin: 5px;
+display: inline-block;
+font-size: 25px;
+text-align: center;
+vertical-align: middle;
+margin-right: -4px;
+border-radius: 10px;
+cursor: pointer;
+}
+.blink-me {
+color: #E0B612;
+}
+.submit-btn {
+    border: none;
+    margin-top: 20px;
+    padding: 10px 120px;
+    border-radius: 5px;
+    background: #495BC3;
+    color: #fff;
+}
+.notify {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #222436;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+.notify-section{
+    width: 35%;
+    margin: 0 auto;
+}
+.action-left {
+    color: #FF3C5F;
+    margin-top: 10px;
 }
